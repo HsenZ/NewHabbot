@@ -1,0 +1,20 @@
+C:\Users\User\Desktop\C-SharpCode\client server\ClientServerApp\bin\Debug\ClientServerApp.exe.config
+C:\Users\User\Desktop\C-SharpCode\client server\ClientServerApp\bin\Debug\ClientServerApp.exe
+C:\Users\User\Desktop\C-SharpCode\client server\ClientServerApp\bin\Debug\ClientServerApp.pdb
+C:\Users\User\Desktop\C-SharpCode\client server\ClientServerApp\obj\Debug\ClientServerApp.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\C-SharpCode\client server\ClientServerApp\obj\Debug\ClientServerApp.ClientForm.resources
+C:\Users\User\Desktop\C-SharpCode\client server\ClientServerApp\obj\Debug\ClientServerApp.Properties.Resources.resources
+C:\Users\User\Desktop\C-SharpCode\client server\ClientServerApp\obj\Debug\ClientServerApp.csproj.GenerateResource.cache
+C:\Users\User\Desktop\C-SharpCode\client server\ClientServerApp\obj\Debug\ClientServerApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C-SharpCode\client server\ClientServerApp\obj\Debug\ClientServerApp.exe
+C:\Users\User\Desktop\C-SharpCode\client server\ClientServerApp\obj\Debug\ClientServerApp.pdb
+C:\Users\User\Desktop\C-SharpCode\HAM-ChatBotApp\bin\Debug\ClientServerApp.exe.config
+C:\Users\User\Desktop\C-SharpCode\HAM-ChatBotApp\bin\Debug\ClientServerApp.exe
+C:\Users\User\Desktop\C-SharpCode\HAM-ChatBotApp\bin\Debug\ClientServerApp.pdb
+C:\Users\User\Desktop\C-SharpCode\HAM-ChatBotApp\obj\Debug\ClientServerApp.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\C-SharpCode\HAM-ChatBotApp\obj\Debug\ClientServerApp.ClientForm.resources
+C:\Users\User\Desktop\C-SharpCode\HAM-ChatBotApp\obj\Debug\ClientServerApp.Properties.Resources.resources
+C:\Users\User\Desktop\C-SharpCode\HAM-ChatBotApp\obj\Debug\ClientServerApp.csproj.GenerateResource.cache
+C:\Users\User\Desktop\C-SharpCode\HAM-ChatBotApp\obj\Debug\ClientServerApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C-SharpCode\HAM-ChatBotApp\obj\Debug\ClientServerApp.exe
+C:\Users\User\Desktop\C-SharpCode\HAM-ChatBotApp\obj\Debug\ClientServerApp.pdb
