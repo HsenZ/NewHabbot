@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Net.Sockets;
+using System.Text;
+using System.Windows.Forms;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,7 +24,7 @@ namespace ClientServerApp
             InitializeComponent();
             // Attach KeyDown event handler to inputTextBox
             inputTextBox.KeyDown += inputTextBox_KeyDown;
-            
+
         }
         // KeyDown event handler for inputTextBox
         private void inputTextBox_KeyDown(object sender, KeyEventArgs e)
@@ -47,17 +50,19 @@ namespace ClientServerApp
                 byte[] responseData = new byte[1024];
                 int bytesRead = stream.Read(responseData, 0, responseData.Length);
                 string response = Encoding.ASCII.GetString(responseData, 0, bytesRead);
-                // Display response in ListBox
-                outputTextBox.Items.Add("Server response: " + response);
+
+                // Append response to the outputTextBox
+                outputTextBox.AppendText("Server response: " + response + Environment.NewLine);
+
                 // Split the response into lines
                 string[] lines = response.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
 
-                // Display each line of response in ListBox
-                outputTextBox.Items.Add("Server response:");
+                // Display each line of response in outputTextBox
                 foreach (string line in lines)
                 {
-                    object value = outputTextBox.Items.Add(line);
+                    outputTextBox.AppendText(line + Environment.NewLine);
                 }
+
                 stream.Close();
                 client.Close();
             }

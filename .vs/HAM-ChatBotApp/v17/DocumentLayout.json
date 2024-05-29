@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\C-SharpCode\\HAM-ChatBotApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4FB033D2-C822-4FFC-AA81-1919A3EAFF15}|ClientServerApp.csproj|c:\\users\\user\\desktop\\c-sharpcode\\ham-chatbotapp\\clientform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FB033D2-C822-4FFC-AA81-1919A3EAFF15}|ClientServerApp.csproj|solutionrelative:clientform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4FB033D2-C822-4FFC-AA81-1919A3EAFF15}|ClientServerApp.csproj|c:\\users\\user\\desktop\\c-sharpcode\\ham-chatbotapp\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4FB033D2-C822-4FFC-AA81-1919A3EAFF15}|ClientServerApp.csproj|solutionrelative:clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4FB033D2-C822-4FFC-AA81-1919A3EAFF15}|ClientServerApp.csproj|C:\\Users\\User\\Desktop\\C-SharpCode\\HAM-ChatBotApp\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,21 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClientForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C-SharpCode\\HAM-ChatBotApp\\ClientForm.Designer.cs",
-              "RelativeDocumentMoniker": "ClientForm.Designer.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C-SharpCode\\HAM-ChatBotApp\\ClientForm.Designer.cs",
-              "RelativeToolTip": "ClientForm.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAcwBYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T13:03:13.887Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -61,7 +48,7 @@
               "RelativeDocumentMoniker": "Server.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\C-SharpCode\\HAM-ChatBotApp\\Server.cs",
               "RelativeToolTip": "Server.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACwAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T10:41:43.701Z"
             },
@@ -73,10 +60,22 @@
               "RelativeDocumentMoniker": "ClientForm.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\C-SharpCode\\HAM-ChatBotApp\\ClientForm.cs",
               "RelativeToolTip": "ClientForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAMAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwEEAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T10:37:05.009Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C-SharpCode\\HAM-ChatBotApp\\ClientForm.cs",
+              "RelativeDocumentMoniker": "ClientForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\C-SharpCode\\HAM-ChatBotApp\\ClientForm.cs [Design]",
+              "RelativeToolTip": "ClientForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T15:59:12.979Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

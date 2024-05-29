@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ClientForm));
             this.sendButton = new System.Windows.Forms.Button();
             this.inputTextBox = new System.Windows.Forms.TextBox();
-            this.outputTextBox = new System.Windows.Forms.TextBox();
+            this.outputTextBox = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // sendButton
@@ -60,16 +60,19 @@
             this.inputTextBox.Size = new System.Drawing.Size(789, 81);
             this.inputTextBox.TabIndex = 2;
             this.inputTextBox.Text = "Message HAMbot....";
-            this.inputTextBox.Enter += new System.EventHandler(this.messageTextBox_Enter);
-            this.inputTextBox.Leave += new System.EventHandler(this.messageTextBox_Leave);
+            this.inputTextBox.Enter += new System.EventHandler(this.inputTextBox_Enter);
+            this.inputTextBox.Leave += new System.EventHandler(this.inputTextBox_Leave);
             // 
             // outputTextBox
             // 
-            this.outputTextBox.Location = new System.Drawing.Point(54, 41);
-            this.outputTextBox.Multiline = true;
+            this.outputTextBox.Font = new System.Drawing.Font("Artifakt Element", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputTextBox.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.outputTextBox.Location = new System.Drawing.Point(54, 24);
             this.outputTextBox.Name = "outputTextBox";
-            this.outputTextBox.Size = new System.Drawing.Size(894, 403);
-            this.outputTextBox.TabIndex = 3;
+            this.outputTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.outputTextBox.Size = new System.Drawing.Size(894, 416);
+            this.outputTextBox.TabIndex = 4;
+            this.outputTextBox.Text = "";
             // 
             // ClientForm
             // 
@@ -100,7 +103,7 @@
 
         private System.Windows.Forms.Button sendButton;
         private System.Windows.Forms.TextBox inputTextBox;
-        private System.Windows.Forms.TextBox outputTextBox;
+        private System.Windows.Forms.RichTextBox outputTextBox;
     }
 }
 
